@@ -1,0 +1,81 @@
+﻿both_are_in_given_multi_alliance = {
+	OR = {
+		# Central Powers
+		AND = {
+			check_variable = {
+				which = $ALLIANCE$
+				value = 1
+			}
+			AND = {
+				$MAIN_COUNTRY$ = {
+					is_target_in_global_variable_list = {
+						name = central_powers
+						target = $MAIN_COUNTRY$
+					}
+				}
+				$SECONDARY_COUNTRY$ = {
+					is_target_in_global_variable_list = {
+						name = central_powers
+						target = $SECONDARY_COUNTRY$
+					}
+				}
+			}
+		}
+		# Entente
+		AND = {
+			check_variable = {
+				which = $ALLIANCE$
+				value = 2
+			}
+			AND = {
+				$MAIN_COUNTRY$ = {
+					is_target_in_global_variable_list = {
+						name = entente
+						target = $MAIN_COUNTRY$
+					}
+				}
+				$SECONDARY_COUNTRY$ = {
+					is_target_in_global_variable_list = {
+						name = entente
+						target = $SECONDARY_COUNTRY$
+					}
+				}
+			}
+		}
+	}
+}
+
+both_are_in_any_multi_alliance = {
+	OR = {
+		# Central Powers
+		AND = {
+			$MAIN_COUNTRY$ = {
+				is_target_in_global_variable_list = {
+					name = central_powers
+					target = $MAIN_COUNTRY$
+				}
+			}
+			$SECONDARY_COUNTRY$ = {
+				is_target_in_global_variable_list = {
+					name = central_powers
+					target = $SECONDARY_COUNTRY$
+				}
+			}
+		}
+		# Entente
+		AND = {
+			$MAIN_COUNTRY$ = {
+				is_target_in_global_variable_list = {
+					name = entente
+					target = $MAIN_COUNTRY$
+				}
+			}
+			$SECONDARY_COUNTRY$ = {
+				is_target_in_global_variable_list = {
+					name = entente
+					target = $SECONDARY_COUNTRY$
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+﻿CHARACTERS = {
+	c:RUS ?= {
+		# Royals
+		create_character = {
+			template = RUS_nicholas_ii
+		}
+	}
+}

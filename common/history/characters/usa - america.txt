@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:USA ?= {
+		create_character = {
+			template = usa_mckinley_template
+		}
+	}
+}

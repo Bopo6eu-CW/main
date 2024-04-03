@@ -1,0 +1,45 @@
+﻿namespace = world_war_1
+
+world_war_1.1 = {
+    type = country_event
+    placement = root
+    hidden = no
+
+    trigger = {
+        # Trigger conditions for the event to fire
+        exists = c:AUS
+        exists = c:SER
+        exists = c:GER
+        exists = c:ITA
+        exists = c:FRA
+        exists = c:RUS
+        exists = c:GBR
+        game_date >= 1911.1.1
+    }
+
+    option = {
+        name = world_war_1.1.1
+        c:AUS = {
+            trigger_world_war = {
+                COUNTRY = c:SER
+                INIT = c:AUS
+            }
+        }
+    }
+}
+
+world_war_1.2 = {
+    type = country_event
+    placement = root
+    hidden = no
+
+    trigger = {
+        has_global_variable = world_war_1_begun
+    }
+    option = {
+        name = world_war_1.2.1
+        enter_world_war_defender_side = {
+            COUNTRY = c:RUS
+        }
+    }
+}
