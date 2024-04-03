@@ -1,7 +1,7 @@
 The Great War (TGW) is a mod for the strategy game Victoria III.
 
 ## Installation
-To build the mod from this repository, follow any of these methods.
+To build the mod, follow any of these methods.
 ### Direct download
 * Click the **Download as ZIP** button, or simply [follow this link](https://github.com/The-Great-War/main/archive/refs/heads/main.zip)
 * Un-zip the file and paste the files into your Victoria III mod folder
