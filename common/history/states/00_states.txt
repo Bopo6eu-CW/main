@@ -5031,7 +5031,7 @@
 			}
         }
 		create_state = {
-			country = c:JAP
+			country = c:RUS
 			owned_provinces = { "x709001" }
 			state_type = treaty_port
 		}
