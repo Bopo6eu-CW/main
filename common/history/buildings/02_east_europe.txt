@@ -858,7 +858,7 @@
 			}
 			create_building={
 				building="building_coal_mine"
-				level=60
+				level=18
 				reserves=1
 				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_nitroglycerin_building_coal_mine" }
 			}
