@@ -909,45 +909,23 @@ POPS = {
  			}
  		}
  	}
- 	s:STATE_DELVIDEK = { 
+ 	s:STATE_DELVIDEK = {   # Accurate per 1900 census (TGW)
  		region_state:AUS = { 
  			create_pop = {
  				culture = hungarian
- 				size = 160062
+ 				size = 126578
  			}
  			create_pop = {
  				culture = north_german
  				size = 197259
  			}
  			create_pop = {
- 				culture = slovak
- 				size = 40000
- 			}
- 			create_pop = {
- 				culture = croat
- 				size = 36003
- 			}
- 			create_pop = {
  				culture = serb
  				size = 283701
  			}
- 			create_pop = {
- 				culture = romanian
- 				size = 43916
- 			}
- 			create_pop = {
- 				culture = serb
- 				religion = catholic
- 				size = 562
- 			}
- 			create_pop = {
- 				culture = romanian
- 				religion = catholic
- 				size = 87
- 			}
  		}
  	}
- 	s:STATE_BANAT = { 
+ 	s:STATE_BANAT = {   # Accurate per 1900 census (TGW)
  		region_state:AUS = { 
  			create_pop = {
  				culture = hungarian
@@ -958,45 +936,12 @@ POPS = {
  				size = 312792
  			}
  			create_pop = {
- 				culture = croat
- 				size = 62263
- 			}
- 			create_pop = {
  				culture = serb
  				size = 244770
  			}
  			create_pop = {
- 				culture = hungarian
- 				religion = jewish
- 				size = 727
- 			}
- 			create_pop = {
- 				culture = hungarian
- 				religion = protestant
- 				size = 64796
- 			}
- 			create_pop = {
  				culture = romanian
  				size = 443588
- 			}
- 			create_pop = {
- 				culture = romanian
- 				religion = catholic
- 				size = 865
- 			}
- 			create_pop = {
- 				culture = serb
- 				religion = catholic
- 				size = 436
- 			}
- 			create_pop = {
- 				culture = ashkenazi
- 				size = 1922
- 			}
- 			create_pop = {
- 				culture = ashkenazi
- 				religion = catholic
- 				size = 10
  			}
  		}
  	}
