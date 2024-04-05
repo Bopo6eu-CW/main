@@ -751,55 +751,23 @@ POPS = {
  			}
  		}
  	}
- 	s:STATE_CROATIA = { 
+ 	s:STATE_CROATIA = {  # Accurate per 1900 census (TGW)
  		region_state:AUS = { 
  			create_pop = {
- 				culture = hungarian
+ 				culture = north_german
  				size = 28166
  			}
  			create_pop = {
  				culture = croat
- 				size = 563880
- 			}
- 			create_pop = {
- 				culture = serb
- 				size = 176094
- 			}
- 			create_pop = {
- 				culture = czech
- 				religion = catholic
- 				size = 20004
- 			}
- 			create_pop = {
- 				culture = north_german
- 				size = 40396
- 			}
- 			create_pop = {
- 				culture = croat
- 				religion = sunni
- 				size = 4
- 			}
- 			create_pop = {
- 				culture = serb
- 				religion = sunni
- 				size = 13
- 			}
- 			create_pop = {
- 				culture = serb
- 				religion = catholic
- 				size = 1
+ 				size = 933733
  			}
  		}
  	}
- 	s:STATE_SLAVONIA = { 
+ 	s:STATE_SLAVONIA = {  # Accurate per 1900 census (TGW) 
  		region_state:AUS = { 
  			create_pop = {
- 				culture = hungarian
- 				size = 16016
- 			}
- 			create_pop = {
  				culture = croat
- 				size = 281787
+ 				size = 1143655
  			}
  			create_pop = {
  				culture = serb
@@ -808,11 +776,6 @@ POPS = {
  			create_pop = {
  				culture = north_german
  				size = 20128
- 			}
- 			create_pop = {
- 				culture = serb
- 				religion = catholic
- 				size = 67
  			}
  		}
  	}
