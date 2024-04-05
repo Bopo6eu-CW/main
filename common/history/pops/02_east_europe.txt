@@ -3,32 +3,40 @@ POPS = {
  		region_state:RUS = { 
  			create_pop = {
  				culture = russian
- 				size = 2490934
+ 				size = 4090934
  			}
  			create_pop = {
  				culture = estonian
- 				size = 3992
+ 				size = 6124
+ 			}
+ 			create_pop = {
+ 				culture = byelorussian
+ 				size = 6124
  			}
  			create_pop = {
  				culture = north_german
- 				size = 31935
+ 				size = 64135
  			}
  			create_pop = {
  				culture = finnish
- 				size = 87820
+ 				size = 104523
  			}
  			create_pop = {
  				culture = latvian
- 				size = 10187
+ 				size = 20465
  			}
  			create_pop = {
  				culture = ugrian
  				religion = orthodox
- 				size = 5701
+ 				size = 3600
  			}
  			create_pop = {
  				culture = ashkenazi
- 				size = 5590
+ 				size = 19045
+ 			}
+ 			create_pop = {
+ 				culture = ukrainian
+ 				size = 58642
  			}
  		}
  	}
@@ -36,11 +44,11 @@ POPS = {
  		region_state:RUS = { 
  			create_pop = {
  				culture = russian
- 				size = 2482398
+ 				size = 6609860
  			}
  			create_pop = {
  				culture = ashkenazi
- 				size = 2192
+ 				size = 8768
  			}
  		}
  	}
@@ -264,15 +272,15 @@ POPS = {
  		region_state:RUS = { 
  			create_pop = {
  				culture = ukrainian
- 				size = 914939
+ 				size = 2629878
  			}
  			create_pop = {
  				culture = russian
- 				size = 161497
+ 				size = 1645988
  			}
  			create_pop = {
  				culture = north_german
- 				size = 3991
+ 				size = 7986
  			}
  			create_pop = {
  				culture = ashkenazi
@@ -285,6 +293,10 @@ POPS = {
  			create_pop = {
  				culture = greek
  				size = 20372
+ 			}
+ 			create_pop = {
+ 				culture = english
+ 				size = 23105
  			}
  		}
  	}
@@ -406,27 +418,27 @@ POPS = {
  		region_state:RUS = { 
  			create_pop = {
  				culture = ukrainian
- 				size = 1359581
+ 				size = 1459581
  			}
  			create_pop = {
  				culture = russian
- 				size = 1139974
+ 				size = 2315974
  			}
  			create_pop = {
  				culture = byelorussian
- 				size = 539
+ 				size = 1539
  			}
  			create_pop = {
  				culture = greek
- 				size = 4000
+ 				size = 3687
  			}
  			create_pop = {
  				culture = tatar
- 				size = 16204
+ 				size = 11465
  			}
  			create_pop = {
  				culture = mongol
- 				size = 19996
+ 				size = 8945
  			}
  		}
  	}
