@@ -13,6 +13,8 @@ tur_abdulhamid_template = {
 
 ### RUSSIA
 
+### Tsars
+
 RUS_nicholas_ii = { #Nicholas II, son of Alexander III
 	first_name = Nikolai
 	last_name = Romanov
@@ -53,5 +55,64 @@ RUS_michael_ii = { #Mikhail Romanov
 	}
 	trait_generation = {
 		
+	}
+}
+
+RUS_alexei_ii = { #Alexei Romanov, son of Nicholas II
+	first_name = Alexei
+	last_name = Romanov
+	historical = yes
+	heir = yes
+	birth_date = 1904.8.12
+	interest_group = ig_landowners
+	ideology = ideology_jingoist_leader
+	traits = {
+		sickly 
+		romantic
+		arrogant
+	}
+	trait_generation = {
+		
+	}
+}
+
+## IG leaders
+
+rus_lenin_character_template = {
+	# Vladimir Lenin
+	first_name = Vladimir
+   	last_name = Lenin
+	historical = yes
+	birth_date = 1870.4.22
+	ig_leader = yes
+	female = no
+	culture = cu:russian
+	religion = rel:atheist
+	interest_group = ig_trade_unions
+	ideology = ideology_vanguardist
+	dna = dna_lenin
+	traits = {
+        	firebrand
+        	charismatic
+        	reckless
+        	literary
+	}
+}
+
+rus_witte_character_template = {
+	first_name = Sergei
+	last_name = Witte
+	historical = yes
+	ig_leader = yes
+	culture = cu:russian
+	female = no
+	religion = orthodox
+	ideology = ideology_reformer
+	interest_group = ig_industrialists
+	birth_date = 1849.6.29
+	traits = {
+		experienced_political_operator
+		meticulous
+		innovative
 	}
 }
