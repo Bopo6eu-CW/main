@@ -5,7 +5,7 @@
 				building="building_textile_mills"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" "pm_sewing_machines" }
+				activate_production_methods={ "pm_privately_owned_building_textile_mills" "pm_craftsman_sewing" "pm_traditional_looms" "pm_sewing_machines" }
 			}
 			create_building={
 				building="building_arts_academy"
@@ -17,11 +17,11 @@
 				building="building_rye_farm"
 				level=30
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_soil_enriching_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_potatoes" "pm_privately_owned" "pm_tools_disabled" "pm_soil_enriching_farming" }
 			}
 			create_building={
 				building="building_port"
-				level=1
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_industrial_port" }
 			}
@@ -29,7 +29,7 @@
 				building="building_logging_camp"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_saw_mills" "pm_no_equipment" }
+				activate_production_methods={ "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" "pm_no_equipment" "pm_hardwood" "pm_road_carts" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -47,25 +47,25 @@
 				building="building_furniture_manufacturies"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_luxury_furniture" "pm_automation_disabled" }
+				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_automation_disabled" "pm_luxury_furniture" }
 			}
 			create_building={
 				building="building_paper_mills"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_sulfite_pulping" "pm_privately_owned_building_paper_mills" "pm_automation_disabled" }
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
 			}
 			create_building={
 				building="building_shipyards"
-				level=5
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_metal_shipbuilding" "pm_privately_owned_building_shipyards" }
 			}
 			create_building={
 				building="building_tooling_workshops"
-				level=5
+				level=4
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_tooling_workshops" "pm_steel" "pm_automation_disabled" }
+				activate_production_methods={ "pm_privately_owned_building_tooling_workshops" "pm_automation_disabled" "pm_steel" }
 			}
 			create_building={
 				building="building_chemical_plants"
@@ -74,29 +74,17 @@
 				activate_production_methods={ "pm_privately_owned_industry" "pm_improved_fertilizer" }
 			}
 			create_building={
-				building="building_motor_industry"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_munition_plants"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" "pm_automation_disabled" }
-			}
-			create_building={
 				building="building_power_plant"
-				level=5
+				level=4
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
 			}
 			create_building={
 				building="building_steel_mills"
-				level=5
+				level=4
 				reserves=1
-				activate_production_methods={ "pm_open_hearth_process" "pm_privately_owned_industry" "pm_automation_disabled" }
+				activate_production_methods={ "pm_privately_owned_industry" "pm_automation_disabled" "pm_open_hearth_process" }
 			}
 			create_building={
 				building="building_synthetics_plants"
@@ -112,9 +100,33 @@
 			}
 			create_building={
 				building="building_railway"
-				level=5
+				level=10
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_steel_passenger_carriages" "pm_publicly_traded_building_railway" }
+				activate_production_methods={ "pm_government_run_building_railway" "pm_steam_trains" "pm_steel_passenger_carriages" }
+			}
+			create_building={
+				building="building_motor_industry"
+				level=8
+				reserves=1
+				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_military_shipyards"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_military_shipbuilding_steam" "pm_privately_owned_building_military_shipyards" }
+			}
+			create_building={
+				building="building_government_administration"
+				level=15
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
 			}
 		}
 	}
@@ -122,7 +134,7 @@
 		region_state:RUS={
 			create_building={
 				building="building_government_administration"
-				level=8
+				level=20
 				reserves=1
 				activate_production_methods={ "pm_religious_bureaucrats" "pm_hereditary_bureaucrats" "pm_vertical_filing_cabinets" }
 			}
@@ -134,21 +146,21 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=2
+				level=5
 				reserves=1
-				activate_production_methods={ "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" "pm_sewing_machines" }
+				activate_production_methods={ "pm_sewing_machines" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
-				level=1
+				level=10
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_luxury_furniture" "pm_automation_disabled" }
+				activate_production_methods={ "pm_mechanized_workshops" "pm_luxury_furniture" "pm_automation_disabled" "pm_privately_owned_building_furniture_manufacturies" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=10
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_no_equipment" "pm_hardwood" "pm_rail_transport_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_merchant_guilds_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_barracks"
@@ -160,13 +172,13 @@
 				building="building_coal_mine"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" "pm_no_steam_automation" "pm_nitroglycerin_building_coal_mine" "pm_atmospheric_engine_pump_building_coal_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_nitroglycerin_building_coal_mine" "pm_no_steam_automation" "pm_privately_owned_building_coal_mine" "pm_atmospheric_engine_pump_building_coal_mine" }
 			}
 			create_building={
 				building="building_iron_mine"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_rail_transport_mine" "pm_steam_donkey_mine" "pm_nitroglycerin_building_iron_mine" "pm_atmospheric_engine_pump_building_iron_mine" }
+				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_rail_transport_mine" "pm_nitroglycerin_building_iron_mine" "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_steam_automation" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -178,25 +190,68 @@
 				building="building_rye_farm"
 				level=30
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_soil_enriching_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_railway"
 				level=10
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_publicly_traded_building_railway" "pm_steel_passenger_carriages" }
+				activate_production_methods={ "pm_steam_trains" "pm_steel_passenger_carriages" "pm_government_run_building_railway" }
 			}
 			create_building={
 				building="building_chemical_plants"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_improved_fertilizer" }
+				activate_production_methods={ "pm_improved_fertilizer" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_construction_sector"
-				level=5
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_steel_frame_buildings" }
+			}
+			create_building={
+				building="building_power_plant"
+				level=4
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
+			}
+			create_building={
+				building="building_steel_mills"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_open_hearth_process" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_explosives_factory"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_privately_owned_industry" "pm_vacuum_evaporation" }
+			}
+			create_building={
+				building="building_paper_mills"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
+			}
+			create_building={
+				building="building_motor_industry"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_munition_plants"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_percussion_caps" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
 			}
 		}
 	}
@@ -206,25 +261,25 @@
 				building="building_rye_farm"
 				level=11
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_tools_disabled" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=13
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_sheep_farms" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_food_industry"
-				level=5
+				level=4
 				reserves=1
-				activate_production_methods={ "pm_baking_powder" "pm_cannery_fish" "pm_privately_owned_building_food_industry" "pm_manual_dough_processing" "pm_disabled_distillery" }
+				activate_production_methods={ "pm_baking_powder" "pm_cannery_fish" "pm_disabled_distillery" "pm_manual_dough_processing" "pm_privately_owned_building_food_industry" }
 			}
 		}
 	}
@@ -234,31 +289,25 @@
 				building="building_logging_camp"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_wheat_farm"
 				level=23
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_citrus_orchards" "pm_privately_owned" "pm_tools_disabled" "pm_soil_enriching_farming" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tooling_workshops"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_steel" "pm_privately_owned_building_tooling_workshops" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_steel_mills"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_open_hearth_process" "pm_privately_owned_industry" "pm_automation_disabled" }
+				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 			create_building={
 				building="building_arts_academy"
@@ -270,19 +319,13 @@
 				building="building_railway"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_publicly_traded_building_railway" "pm_steel_passenger_carriages" }
+				activate_production_methods={ "pm_steam_trains" "pm_government_run_building_railway" "pm_no_passenger_trains" }
 			}
 			create_building={
 				building="building_government_administration"
 				level=7
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
-			}
-			create_building={
-				building="building_motor_industry"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
 			}
 		}
 	}
@@ -302,21 +345,21 @@
 			}
 			create_building={
 				building="building_food_industry"
-				level=2
+				level=3
 				reserves=1
-				activate_production_methods={ "pm_baking_powder" "pm_privately_owned_building_food_industry" "pm_cannery_fish" "pm_manual_dough_processing" "pm_disabled_distillery" }
+				activate_production_methods={ "pm_baking_powder" "pm_cannery_fish" "pm_disabled_distillery" "pm_manual_dough_processing" "pm_privately_owned_building_food_industry" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_wheat_farm"
 				level=64
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_citrus_orchards" "pm_privately_owned" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
@@ -328,17 +371,17 @@
 				building="building_logging_camp"
 				level=9
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_railway"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_steel_passenger_carriages" "pm_publicly_traded_building_railway" }
+				activate_production_methods={ "pm_steam_trains" "pm_government_run_building_railway" "pm_no_passenger_trains" }
 			}
 			create_building={
 				building="building_construction_sector"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
@@ -346,7 +389,20 @@
 				building="building_paper_mills"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_paper_mills" "pm_sulfite_pulping" "pm_automation_disabled" }
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
+			}
+			create_building={
+				building="building_power_plant"
+				level=1
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
+			}
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
 			}
 		}
 	}
@@ -356,19 +412,19 @@
 				building="building_food_industry"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_baking_powder" "pm_privately_owned_building_food_industry" "pm_disabled_distillery" "pm_manual_dough_processing" "pm_cannery_fish" }
+				activate_production_methods={ "pm_baking_powder" "pm_cannery_fish" "pm_disabled_distillery" "pm_manual_dough_processing" "pm_privately_owned_building_food_industry" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=34
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_potatoes" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_barracks"
@@ -380,7 +436,19 @@
 				building="building_livestock_ranch"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_railway"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
 		}
 	}
@@ -390,19 +458,19 @@
 				building="building_food_industry"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_baking_powder" "pm_disabled_distillery" "pm_privately_owned_building_food_industry" "pm_manual_dough_processing" "pm_cannery_fish" }
+				activate_production_methods={ "pm_baking_powder" "pm_cannery_fish" "pm_disabled_distillery" "pm_manual_dough_processing" "pm_privately_owned_building_food_industry" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=33
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_tools_disabled" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=18
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_barracks"
@@ -414,13 +482,31 @@
 				building="building_livestock_ranch"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_chemical_plants"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_improved_fertilizer" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_textile_mills"
+				level=15
+				reserves=1
+				activate_production_methods={ "pm_sewing_machines" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
 		}
 	}
@@ -430,13 +516,13 @@
 				building="building_logging_camp"
 				level=12
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_potatoes" "pm_privately_owned" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
@@ -448,7 +534,19 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_sheep_farms" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_steel_frame_buildings" }
+			}
+			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 		}
 	}
@@ -458,7 +556,7 @@
 				building="building_logging_camp"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_road_carts" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -470,19 +568,13 @@
 				building="building_rye_farm"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_privately_owned" "pm_soil_enriching_farming" "pm_potatoes" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_industrial_port" }
-			}
-			create_building={
-				building="building_shipyards"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_metal_shipbuilding" "pm_privately_owned_building_shipyards" }
 			}
 		}
 	}
@@ -495,12 +587,6 @@
 				activate_production_methods={ "pm_steam_trawlers" "pm_unrefrigerated" "pm_privately_owned_building_fishing_wharf" }
 			}
 			create_building={
-				building="building_shipyards"
-				level=6
-				reserves=1
-				activate_production_methods={ "pm_metal_shipbuilding" "pm_privately_owned_building_shipyards" }
-			}
-			create_building={
 				building="building_port"
 				level=1
 				reserves=1
@@ -510,13 +596,13 @@
 				building="building_logging_camp"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_potatoes" "pm_privately_owned" "pm_soil_enriching_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
 	}
@@ -526,7 +612,7 @@
 				building="building_logging_camp"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_barracks"
@@ -538,19 +624,19 @@
 				building="building_livestock_ranch"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=17
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_soil_enriching_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_railway"
-				level=5
+				level=1
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_steel_passenger_carriages" "pm_publicly_traded_building_railway" }
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
 			}
 		}
 	}
@@ -570,7 +656,7 @@
 			}
 			create_building={
 				building="building_port"
-				level=4
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_industrial_port" }
 			}
@@ -578,23 +664,23 @@
 				building="building_logging_camp"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_road_carts" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_wheat_farm"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_citrus_orchards" "pm_privately_owned" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_shipyards"
-				level=5
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_metal_shipbuilding" "pm_privately_owned_building_shipyards" }
 			}
@@ -602,25 +688,13 @@
 				building="building_railway"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_publicly_traded_building_railway" "pm_steel_passenger_carriages" }
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
 			}
 			create_building={
-				building="building_motor_industry"
-				level=1
+				building="building_military_shipyards"
+				level=3
 				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_food_industry"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_baking_powder" "pm_cannery_fish" "pm_privately_owned_building_food_industry" "pm_manual_dough_processing" "pm_disabled_distillery" }
-			}
-			create_building={
-				building="building_explosives_factory"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_vacuum_evaporation" }
+				activate_production_methods={ "pm_military_shipbuilding_steam" "pm_privately_owned_building_military_shipyards" }
 			}
 		}
 	}
@@ -630,31 +704,31 @@
 				building="building_wheat_farm"
 				level=30
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_citrus_orchards" "pm_privately_owned" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_standard_fences" "pm_sheep_farms" "pm_privately_owned" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_coal_mine"
 				level=19
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_atmospheric_engine_pump_building_coal_mine" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" }
 			}
 			create_building={
 				building="building_iron_mine"
-				level=20
+				level=22
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_nitroglycerin_building_iron_mine" "pm_steam_donkey_mine" "pm_rail_transport_mine" "pm_atmospheric_engine_pump_building_iron_mine" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_nitroglycerin_building_iron_mine" "pm_privately_owned_building_iron_mine" "pm_rail_transport_mine" "pm_no_steam_automation" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_no_equipment" "pm_hardwood" "pm_rail_transport_building_logging_camp" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -669,34 +743,16 @@
 				activate_production_methods={ "pm_improved_fertilizer" "pm_privately_owned_industry" }
 			}
 			create_building={
-				building="building_food_industry"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_baking_powder" "pm_disabled_distillery" "pm_privately_owned_building_food_industry" "pm_manual_dough_processing" "pm_cannery_fish" }
-			}
-			create_building={
 				building="building_tooling_workshops"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_steel" "pm_privately_owned_building_tooling_workshops" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_motor_industry"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_munition_plants"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_percussion_caps" "pm_automation_disabled" }
+				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 			create_building={
 				building="building_steel_mills"
-				level=5
+				level=4
 				reserves=1
-				activate_production_methods={ "pm_open_hearth_process" "pm_privately_owned_industry" "pm_automation_disabled" }
+				activate_production_methods={ "pm_open_hearth_process" "pm_automation_disabled" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_arts_academy"
@@ -705,17 +761,10 @@
 				activate_production_methods={ "pm_realist_art" "pm_independent_artists" }
 			}
 			create_building={
-				building="building_power_plant"
-				level=5
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
-			}
-			create_building={
 				building="building_railway"
-				level=5
+				level=10
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_publicly_traded_building_railway" "pm_steel_passenger_carriages" }
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
 			}
 			create_building={
 				building="building_port"
@@ -733,13 +782,26 @@
 				building="building_furniture_manufacturies"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_luxury_furniture" "pm_automation_disabled" }
+				activate_production_methods={ "pm_mechanized_workshops" "pm_luxury_furniture" "pm_automation_disabled" "pm_privately_owned_building_furniture_manufacturies" }
 			}
 			create_building={
 				building="building_shipyards"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_metal_shipbuilding" "pm_privately_owned_building_shipyards" }
+			}
+			create_building={
+				building="building_power_plant"
+				level=3
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
+			}
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
 			}
 		}
 	}
@@ -749,13 +811,13 @@
 				building="building_rye_farm"
 				level=33
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_potatoes" "pm_privately_owned" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_barracks"
@@ -767,7 +829,19 @@
 				building="building_livestock_ranch"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_railway"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
 		}
 	}
@@ -777,7 +851,7 @@
 				building="building_logging_camp"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_barracks"
@@ -789,13 +863,25 @@
 				building="building_livestock_ranch"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=30
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_privately_owned" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
 		}
 	}
@@ -805,13 +891,13 @@
 				building="building_livestock_ranch"
 				level=14
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_wheat_farm"
 				level=28
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_citrus_orchards" "pm_privately_owned" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"
@@ -823,13 +909,13 @@
 				building="building_coal_mine"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_atmospheric_engine_pump_building_coal_mine" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=6
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -841,23 +927,17 @@
 				building="building_food_industry"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_baking_powder" "pm_cannery_fish" "pm_privately_owned_building_food_industry" "pm_manual_dough_processing" "pm_disabled_distillery" }
-			}
-			create_building={
-				building="building_munition_plants"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" "pm_automation_disabled" }
+				activate_production_methods={ "pm_baking_powder" "pm_cannery_fish" "pm_disabled_distillery" "pm_manual_dough_processing" "pm_privately_owned_building_food_industry" }
 			}
 			create_building={
 				building="building_railway"
-				level=6
+				level=4
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_steel_passenger_carriages" "pm_publicly_traded_building_railway" }
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
 			}
 			create_building={
 				building="building_government_administration"
-				level=6
+				level=11
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
@@ -865,7 +945,13 @@
 				building="building_paper_mills"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sulfite_pulping" "pm_privately_owned_building_paper_mills" "pm_automation_disabled" }
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
+			}
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
 			}
 		}
 	}
@@ -875,13 +961,13 @@
 				building="building_rye_farm"
 				level=33
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_potatoes" "pm_privately_owned" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=12
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_barracks"
@@ -893,7 +979,7 @@
 				building="building_livestock_ranch"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 		}
 	}
@@ -903,19 +989,19 @@
 				building="building_textile_mills"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" "pm_sewing_machines" }
+				activate_production_methods={ "pm_sewing_machines" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_potatoes" "pm_privately_owned" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
@@ -924,10 +1010,10 @@
 				activate_production_methods={ "pm_advanced_tactics_training" }
 			}
 			create_building={
-				building="building_motor_industry"
+				building="building_construction_sector"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
+				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
 		}
 	}
@@ -943,37 +1029,37 @@
 				building="building_logging_camp"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_coal_mine"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_privately_owned_building_coal_mine" "pm_rail_transport_mine" "pm_no_steam_automation" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" }
 			}
 			create_building={
 				building="building_wheat_farm"
 				level=19
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_citrus_orchards" "pm_privately_owned" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_industrial_port" }
 			}
 			create_building={
 				building="building_food_industry"
-				level=5
+				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_food_industry" "pm_cannery_fish" "pm_baking_powder" "pm_manual_dough_processing" "pm_disabled_distillery" }
+				activate_production_methods={ "pm_baking_powder" "pm_cannery_fish" "pm_disabled_distillery" "pm_manual_dough_processing" "pm_privately_owned_building_food_industry" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_luxury_furniture" "pm_automation_disabled" }
+				activate_production_methods={ "pm_mechanized_workshops" "pm_luxury_furniture" "pm_automation_disabled" "pm_privately_owned_building_furniture_manufacturies" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -985,44 +1071,13 @@
 				building="building_paper_mills"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_paper_mills" "pm_sulfite_pulping" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_textile_mills"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" "pm_sewing_machines" }
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
 			}
 			create_building={
 				building="building_tooling_workshops"
-				level=6
+				level=2
 				reserves=1
-				activate_production_methods={ "pm_steel" "pm_privately_owned_building_tooling_workshops" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_motor_industry"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_munition_plants"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_percussion_caps" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_power_plant"
-				level=5
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
-			}
-			create_building={
-				building="building_steel_mills"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_open_hearth_process" "pm_privately_owned_industry" "pm_automation_disabled" }
+				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 			create_building={
 				building="building_synthetics_plants"
@@ -1050,21 +1105,28 @@
 			}
 			create_building={
 				building="building_railway"
-				level=18
+				level=5
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_publicly_traded_building_railway" "pm_steel_passenger_carriages" }
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
 			}
 			create_building={
 				building="building_explosives_factory"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_vacuum_evaporation" }
+				activate_production_methods={ "pm_vacuum_evaporation" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_cotton_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_plantation" "pm_steam_rail_transport" "default_building_cotton_plantation" }
+				activate_production_methods={ "default_building_cotton_plantation" "pm_privately_owned_plantation" "pm_steam_rail_transport" }
+			}
+			create_building={
+				building="building_power_plant"
+				level=1
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
 			}
 		}
 	}
@@ -1072,15 +1134,15 @@
 		region_state:RUS={
 			create_building={
 				building="building_iron_mine"
-				level=5
+				level=4
 				reserves=1
-				activate_production_methods={ "pm_publicly_traded_building_iron_mine" "pm_atmospheric_engine_pump_building_iron_mine" "pm_steam_donkey_mine" "pm_rail_transport_mine" "pm_nitroglycerin_building_iron_mine" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_nitroglycerin_building_iron_mine" "pm_privately_owned_building_iron_mine" "pm_rail_transport_mine" "pm_no_steam_automation" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=12
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1092,25 +1154,37 @@
 				building="building_livestock_ranch"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_sheep_farms" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=10
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_privately_owned" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_railway"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_publicly_traded_building_railway" "pm_steel_passenger_carriages" }
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
 			}
 			create_building={
 				building="building_steel_mills"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_open_hearth_process" "pm_privately_owned_industry" "pm_automation_disabled" }
+				activate_production_methods={ "pm_open_hearth_process" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
 			}
 		}
 	}
@@ -1120,13 +1194,13 @@
 				building="building_fishing_wharf"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_fishing_wharf" "pm_unrefrigerated" "pm_steam_trawlers" }
+				activate_production_methods={ "pm_steam_trawlers" "pm_unrefrigerated" "pm_privately_owned_building_fishing_wharf" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_road_carts" }
 			}
 			create_building={
 				building="building_power_plant"
@@ -1145,7 +1219,7 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_privately_owned" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_arts_academy"
@@ -1157,7 +1231,7 @@
 				building="building_rye_farm"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_tools_disabled" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_naval_base"
@@ -1171,6 +1245,12 @@
 				reserves=1
 				activate_production_methods={ "pm_advanced_tactics_training" }
 			}
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
+			}
 		}
 	}
 	s:STATE_LATVIA={
@@ -1179,7 +1259,7 @@
 				building="building_rye_farm"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_soil_enriching_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_naval_base"
@@ -1197,20 +1277,13 @@
 				building="building_livestock_ranch"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_butchering_tools" "pm_unrefrigerated" "pm_standard_fences" }
-			}
-			create_building={
-				building="building_power_plant"
-				level=1
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_fishing_wharf"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_fishing_wharf" "pm_unrefrigerated" "pm_steam_trawlers" }
+				activate_production_methods={ "pm_steam_trawlers" "pm_unrefrigerated" "pm_privately_owned_building_fishing_wharf" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1219,16 +1292,10 @@
 				activate_production_methods={ "pm_advanced_tactics_training" }
 			}
 			create_building={
-				building="building_motor_industry"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
-			}
-			create_building={
 				building="building_logging_camp"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_road_carts" }
 			}
 			create_building={
 				building="building_arts_academy"
@@ -1240,6 +1307,12 @@
 	}
 	s:STATE_LITHUANIA={
 		region_state:RUS={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
+			}
 		}
 	}
 	s:STATE_MAZOVIA={
@@ -1248,55 +1321,55 @@
 				building="building_furniture_manufacturies"
 				level=6
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_luxury_furniture" "pm_automation_disabled" }
+				activate_production_methods={ "pm_mechanized_workshops" "pm_luxury_furniture" "pm_automation_disabled" "pm_privately_owned_building_furniture_manufacturies" }
 			}
 			create_building={
 				building="building_paper_mills"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_paper_mills" "pm_sulfite_pulping" "pm_automation_disabled" }
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=18
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tooling_workshops"
 				level=39
 				reserves=1
-				activate_production_methods={ "pm_steel" "pm_privately_owned_building_tooling_workshops" "pm_automation_disabled" }
+				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_saw_mills" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_coal_mine"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_privately_owned_building_coal_mine" "pm_rail_transport_mine" "pm_no_steam_automation" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" }
 			}
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_railway"
-				level=9
+				level=3
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_publicly_traded_building_railway" "pm_steel_passenger_carriages" }
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1305,17 +1378,10 @@
 				activate_production_methods={ "pm_advanced_tactics_training" }
 			}
 			create_building={
-				building="building_motor_industry"
-				level=6
-				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_power_plant"
+				building="building_university"
 				level=1
-				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
 			}
 		}
 	}
@@ -1355,7 +1421,7 @@
 				building="building_livestock_ranch"
 				level=22
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_publicly_traded" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_publicly_traded" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1421,7 +1487,7 @@
 				building="building_motor_industry"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_privately_owned_industry" "pm_rotary_valve_engine_building_motor_industry" "pm_automobiles_disabled" }
+				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_rotary_valve_engine_building_motor_industry" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_munition_plants"
@@ -1485,41 +1551,41 @@
 				building="building_textile_mills"
 				level=8
 				reserves=1
-				activate_production_methods={ "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" "pm_sewing_machines" }
+				activate_production_methods={ "pm_sewing_machines" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=14
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_tools_disabled" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_coal_mine"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_privately_owned_building_coal_mine" "pm_rail_transport_mine" "pm_no_steam_automation" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" }
 			}
 			create_building={
 				building="building_iron_mine"
-				level=5
+				level=4
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_atmospheric_engine_pump_building_iron_mine" "pm_steam_donkey_mine" "pm_rail_transport_mine" "pm_nitroglycerin_building_iron_mine" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_nitroglycerin_building_iron_mine" "pm_privately_owned_building_iron_mine" "pm_rail_transport_mine" "pm_no_steam_automation" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=9
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_no_equipment" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_road_carts" }
 			}
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=8
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
@@ -1527,7 +1593,7 @@
 				building="building_railway"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_publicly_traded_building_railway" "pm_steel_passenger_carriages" }
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1536,16 +1602,10 @@
 				activate_production_methods={ "pm_advanced_tactics_training" }
 			}
 			create_building={
-				building="building_motor_industry"
-				level=12
-				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
-			}
-			create_building={
 				building="building_tooling_workshops"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_tooling_workshops" "pm_steel" "pm_automation_disabled" }
+				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 		}
 	}
@@ -1555,47 +1615,47 @@
 				building="building_paper_mills"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_paper_mills" "pm_sulfite_pulping" "pm_automation_disabled" }
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=9
 				reserves=1
-				activate_production_methods={ "pm_standard_fences" "pm_sheep_farms" "pm_privately_owned" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_glassworks"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_glassworks" "pm_ceramics" "pm_manual_glassblowing" "pm_crystal_glass" }
+				activate_production_methods={ "pm_crystal_glass" "pm_ceramics" "pm_manual_glassblowing" "pm_privately_owned_building_glassworks" }
 			}
 			create_building={
 				building="building_rye_farm"
 				level=16
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_soil_enriching_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_coal_mine"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_privately_owned_building_coal_mine" "pm_rail_transport_mine" "pm_no_steam_automation" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_nitroglycerin_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" }
 			}
 			create_building={
 				building="building_lead_mine"
-				level=5
+				level=3
 				reserves=1
-				activate_production_methods={ "pm_steam_donkey_mine" "pm_atmospheric_engine_pump_building_lead_mine" "pm_rail_transport_mine" "pm_privately_owned_building_lead_mine" "pm_nitroglycerin_building_lead_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_atmospheric_engine_pump_building_lead_mine" "pm_nitroglycerin_building_lead_mine" "pm_privately_owned_building_lead_mine" "pm_no_steam_automation" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_no_equipment" "pm_hardwood" "pm_rail_transport_building_logging_camp" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=7
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
@@ -1603,7 +1663,7 @@
 				building="building_railway"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_publicly_traded_building_railway" "pm_steel_passenger_carriages" }
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" "pm_government_run_building_railway" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1612,11 +1672,10 @@
 				activate_production_methods={ "pm_advanced_tactics_training" }
 			}
 			create_building={
-				building="building_power_plant"
+				building="building_university"
 				level=1
-				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
 			}
 		}
 	}
@@ -1662,7 +1721,7 @@
 				building="building_logging_camp"
 				level=6
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_increased_hardwood" "pm_road_carts" }
+				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_increased_hardwood" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -1762,7 +1821,7 @@
 				building="building_logging_camp"
 				level=17
 				reserves=1
-				activate_production_methods={ "pm_no_hardwood" "pm_simple_forestry" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -1780,13 +1839,13 @@
 				building="building_livestock_ranch"
 				level=18
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_publicly_traded" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_publicly_traded" }
 			}
 			create_building={
 				building="building_fishing_wharf"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_steam_trawlers" "pm_privately_owned_building_fishing_wharf" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_steam_trawlers" "pm_unrefrigerated" "pm_privately_owned_building_fishing_wharf" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -1810,7 +1869,7 @@
 				building="building_motor_industry"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_steam_engines" "pm_rotary_valve_engine_building_motor_industry" "pm_automobiles_disabled" }
+				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_rotary_valve_engine_building_motor_industry" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_munition_plants"
@@ -1881,7 +1940,7 @@
 				building="building_livestock_ranch"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_publicly_traded" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_publicly_traded" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1899,7 +1958,7 @@
 				building="building_logging_camp"
 				level=9
 				reserves=1
-				activate_production_methods={ "pm_road_carts" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -1935,7 +1994,7 @@
 				building="building_textile_mills"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_sewing_machines" "pm_no_luxury_clothes" "pm_privately_owned_building_textile_mills" "pm_traditional_looms" }
+				activate_production_methods={ "pm_sewing_machines" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -1989,7 +2048,7 @@
 				building="building_motor_industry"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_privately_owned_industry" "pm_rotary_valve_engine_building_motor_industry" "pm_automobiles_disabled" }
+				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_rotary_valve_engine_building_motor_industry" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_synthetics_plants"
@@ -2011,13 +2070,13 @@
 				building="building_rye_farm"
 				level=52
 				reserves=1
-				activate_production_methods={ "pm_fertilization" "pm_apple_orchards" "pm_steam_threshers" "pm_publicly_traded" }
+				activate_production_methods={ "pm_fertilization" "pm_publicly_traded" "pm_steam_threshers" "pm_apple_orchards" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=8
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_barbed_wire_fences" "pm_unrefrigerated" "pm_publicly_traded" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_publicly_traded" "pm_unrefrigerated" "pm_barbed_wire_fences" }
 			}
 			create_building={
 				building="building_barracks"
@@ -2053,7 +2112,7 @@
 				building="building_logging_camp"
 				level=6
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_road_carts" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -2135,7 +2194,7 @@
 				building="building_livestock_ranch"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_publicly_traded" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_publicly_traded" "pm_unrefrigerated" "pm_standard_fences" }
 			}
 			create_building={
 				building="building_barracks"
@@ -2159,7 +2218,7 @@
 				building="building_logging_camp"
 				level=9
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_steam_donkey_building_logging_camp" "pm_increased_hardwood" "pm_road_carts" }
+				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_increased_hardwood" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -2301,7 +2360,7 @@
 				building="building_wheat_farm"
 				level=30
 				reserves=1
-				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_tools" "pm_publicly_traded" }
+				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_publicly_traded" "pm_tools" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2325,7 +2384,7 @@
 				building="building_logging_camp"
 				level=6
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_rail_transport_building_logging_camp" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -2401,7 +2460,7 @@
 				building="building_wheat_farm"
 				level=18
 				reserves=1
-				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_tools" "pm_publicly_traded" }
+				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_publicly_traded" "pm_tools" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2419,7 +2478,7 @@
 				building="building_logging_camp"
 				level=11
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_building_logging_camp" "pm_hardwood" "pm_steam_donkey_building_logging_camp" "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_rail_transport_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_merchant_guilds_building_logging_camp" "pm_hardwood" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -2537,7 +2596,7 @@
 				building="building_logging_camp"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_building_logging_camp" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_merchant_guilds_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2549,7 +2608,7 @@
 				building="building_wheat_farm"
 				level=33
 				reserves=1
-				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_tools" "pm_publicly_traded" }
+				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_publicly_traded" "pm_tools" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -2667,7 +2726,7 @@
 				building="building_logging_camp"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_building_logging_camp" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_merchant_guilds_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_railway"
@@ -2703,7 +2762,7 @@
 				building="building_livestock_ranch"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_electric_fencing" "pm_unrefrigerated" "pm_publicly_traded" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_publicly_traded" "pm_unrefrigerated" "pm_electric_fencing" }
 			}
 		}
 	}
@@ -2713,7 +2772,7 @@
 				building="building_wheat_farm"
 				level=16
 				reserves=1
-				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_tools" "pm_publicly_traded" }
+				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_publicly_traded" "pm_tools" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2731,7 +2790,7 @@
 				building="building_logging_camp"
 				level=9
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_building_logging_camp" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_merchant_guilds_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -2837,7 +2896,7 @@
 				building="building_wheat_farm"
 				level=21
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools" "pm_publicly_traded" }
+				activate_production_methods={ "pm_publicly_traded" "pm_citrus_orchards" "pm_soil_enriching_farming" "pm_tools" }
 			}
 			create_building={
 				building="building_coal_mine"
@@ -2855,7 +2914,7 @@
 				building="building_logging_camp"
 				level=8
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_rail_transport_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_increased_hardwood" }
+				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_increased_hardwood" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -2967,7 +3026,7 @@
 				building="building_wheat_farm"
 				level=16
 				reserves=1
-				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_tools" "pm_publicly_traded" }
+				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_publicly_traded" "pm_tools" }
 			}
 			create_building={
 				building="building_coal_mine"
@@ -2979,7 +3038,7 @@
 				building="building_logging_camp"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_rail_transport_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_hardwood" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -3085,7 +3144,7 @@
 				building="building_wheat_farm"
 				level=14
 				reserves=1
-				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_tools" "pm_publicly_traded" }
+				activate_production_methods={ "pm_fertilization" "pm_citrus_orchards" "pm_publicly_traded" "pm_tools" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3215,13 +3274,13 @@
 				building="building_logging_camp"
 				level=13
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_simple_forestry" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" }
 			}
 			create_building={
 				building="building_wheat_farm"
 				level=11
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools" "pm_publicly_traded" }
+				activate_production_methods={ "pm_publicly_traded" "pm_citrus_orchards" "pm_soil_enriching_farming" "pm_tools" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -3401,19 +3460,19 @@
 				building="building_wheat_farm"
 				level=16
 				reserves=1
-				activate_production_methods={ "pm_no_secondary" "pm_privately_owned" "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_butchering_tools" "pm_sheep_farms" "pm_privately_owned" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=10
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" }
 			}
 			create_building={
 				building="building_barracks"
@@ -3431,7 +3490,7 @@
 				building="building_iron_mine"
 				level=6
 				reserves=1
-				activate_production_methods={ "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_privately_owned_building_iron_mine" "pm_nitroglycerin_building_iron_mine" "pm_rail_transport_mine" }
+				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_steam_donkey_mine" "pm_nitroglycerin_building_iron_mine" "pm_rail_transport_mine" }
 			}
 			create_building={
 				building="building_oil_rig"
@@ -3485,7 +3544,7 @@
 				building="building_chemical_plants"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_artificial_fertilizers" }
+				activate_production_methods={ "pm_artificial_fertilizers" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_motor_industry"
@@ -3502,6 +3561,7 @@
 			create_building={
 				building="building_power_plant"
 				level=1
+				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
 			}
@@ -3509,7 +3569,7 @@
 				building="building_steel_mills"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_rotary_valve_engine_building_steel_mills" "pm_blister_steel_process" }
+				activate_production_methods={ "pm_blister_steel_process" "pm_rotary_valve_engine_building_steel_mills" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_arts_academy"
@@ -3527,7 +3587,7 @@
 				building="building_railway"
 				level=9
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_railway" "pm_wooden_passenger_carriages" "pm_early_trains" }
+				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages" "pm_privately_owned_building_railway" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -3539,7 +3599,7 @@
 				building="building_artillery_foundries"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_cannons" "pm_rotary_valve_engine_building_arms_industry" "pm_merchant_guilds_building_artillery_foundries" }
+				activate_production_methods={ "pm_cannons" "pm_merchant_guilds_building_artillery_foundries" "pm_rotary_valve_engine_building_arms_industry" }
 			}
 			create_building={
 				building="building_explosives_factory"
@@ -3561,13 +3621,13 @@
 				building="building_wheat_farm"
 				level=26
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=6
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_privately_owned" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
@@ -3585,7 +3645,7 @@
 				building="building_coal_mine"
 				level=11
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_privately_owned_building_coal_mine" "pm_steam_donkey_building_coal_mine" "pm_no_explosives" }
+				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_no_explosives" "pm_condensing_engine_pump_building_coal_mine" "pm_rail_transport_mine" "pm_steam_donkey_building_coal_mine" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -3603,7 +3663,7 @@
 				building="building_logging_camp"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_simple_forestry" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_merchant_guilds_building_logging_camp" }
+				activate_production_methods={ "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" "pm_hardwood" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -3621,7 +3681,7 @@
 				building="building_furniture_manufacturies"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_mechanized_workshops" "pm_privately_owned_building_furniture_manufacturies" "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_precision_tools" }
+				activate_production_methods={ "pm_mechanized_workshops" "pm_precision_tools" "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_privately_owned_building_furniture_manufacturies" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -3651,7 +3711,7 @@
 				building="building_chemical_plants"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_artificial_fertilizers" }
+				activate_production_methods={ "pm_artificial_fertilizers" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_munition_plants"
@@ -3663,13 +3723,13 @@
 				building="building_steel_mills"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_industry" "pm_rotary_valve_engine_building_steel_mills" "pm_blister_steel_process" }
+				activate_production_methods={ "pm_blister_steel_process" "pm_rotary_valve_engine_building_steel_mills" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_arts_academy"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_traditional_patronage" "pm_traditional_art" }
+				activate_production_methods={ "pm_traditional_art" "pm_traditional_patronage" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -3681,7 +3741,7 @@
 				building="building_railway"
 				level=21
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_railway" "pm_wooden_passenger_carriages" "pm_early_trains" }
+				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages" "pm_privately_owned_building_railway" }
 			}
 			create_building={
 				building="building_power_plant"
@@ -3701,12 +3761,6 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
-			}
-			create_building={
-				building="building_motor_industry"
-				level=0
-				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_rotary_valve_engine_building_motor_industry" }
 			}
 		}
 	}
