@@ -1,4 +1,6 @@
-﻿tur_abdulhamid_template = {
+﻿### OTOMANS
+
+tur_abdulhamid_template = {
     first_name = Abdulhamid
     last_name = Osmanoglu
     historical = yes
@@ -8,6 +10,8 @@
     culture = cu:turkish
     ideology = ideology_moderate
 }
+
+### RUSSIA
 
 RUS_nicholas_ii = { #Nicholas II, son of Alexander III
 	first_name = Nikolai
@@ -21,6 +25,31 @@ RUS_nicholas_ii = { #Nicholas II, son of Alexander III
 	traits = {
 		imperious 
 		pious
+		imperious
+		pious
+		romantic
+		reserved
+		expensive_tastes
+	}
+	on_created = {
+		set_variable = is_married
+	}
+	trait_generation = {
+		
+	}
+}
+
+RUS_michael_ii = { #Mikhail Romanov
+	first_name = Mikhail
+	last_name = Romanov
+	historical = yes
+	heir = yes
+	birth_date = 1878.5.9
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		basic_artillery_commander 
+		tactful 
 	}
 	trait_generation = {
 		
