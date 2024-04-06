@@ -82,19 +82,35 @@ rus_lenin_character_template = {
 	}
 }
 
-rus_witte_character_template = {
-    first_name = Sergei
-    last_name = Witte
-    historical = yes
-    culture = cu:russian
-    female = no
-    religion = orthodox
-    ideology = ideology_reformer
-    interest_group = ig_industrialists
-    birth_date = 1849.6.29
-    traits = {
-        experienced_political_operator
-        meticulous
-        innovative
-    }
+RUS_witte = {
+	first_name = Sergei
+	last_name = Witte
+	historical = yes
+	ig_leader = yes
+	culture = cu:russian
+	female = no
+	religion = orthodox
+	ideology = ideology_reformer
+	interest_group = ig_industrialists
+	birth_date = 1849.6.29
+	traits = {
+		experienced_political_operator
+		meticulous
+		innovative
+	}
+}
+
+RUS_stolypin = {
+	first_name = Pyotr
+	last_name = Stolypin
+	historical = yes
+	ig_leader = yes
+	culture = cu:russian
+	female = no
+	religion = orthodox
+	ideology = ideology_reformer
+	interest_group = ig_landowners
+	birth_date = 1862.4.14
+	traits = {
+	}
 }
