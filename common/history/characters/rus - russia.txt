@@ -1,8 +1,17 @@
 ﻿CHARACTERS = {
 	c:RUS ?= {
 		# Royals
+
 		create_character = {
 			template = RUS_nicholas_ii
+		}
+
+		# IG leaders
+		create_character = {
+			template = rus_lenin_character_template
+		}
+		create_character = {
+			template = rus_witte_character_template
 		}
 	}
 }

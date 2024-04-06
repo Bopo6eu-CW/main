@@ -446,7 +446,7 @@ POPS = {
  		region_state:RUS = { 
  			create_pop = {
  				culture = russian
- 				size = 1502962
+ 				size = 3945600
  			}
  			create_pop = {
  				culture = ugrian

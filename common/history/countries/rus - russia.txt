@@ -5,16 +5,26 @@
 		
 		# Laws 
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_serfdom
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_state_religion
-		activate_law = law_type:law_national_supremacy # needed so that e.g. Poles are discriminated against
-		activate_law = law_type:law_traditionalism
-		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_secret_police
+
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_private_schools
+		activate_law = law_type:law_charitable_health_system
+		
 		activate_law = law_type:law_censorship
-		activate_law = law_type:law_colonial_resettlement #colonization of Central Asia
+		activate_law = law_type:law_regulatory_bodies
+		activate_law = law_type:law_restricted_child_labor		
+		activate_law = law_type:law_women_own_property
 
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
