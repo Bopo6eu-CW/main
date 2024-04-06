@@ -7,11 +7,17 @@
 		}
 
 		# IG leaders
+		
 		create_character = {
 			template = rus_lenin_character_template
 		}
+
 		create_character = {
-			template = rus_witte_character_template
+			template = RUS_witte
+		}
+
+		create_character = {
+			template = RUS_stolypin
 		}
 	}
 }
