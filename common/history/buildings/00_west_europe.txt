@@ -215,7 +215,7 @@
 				building="building_furniture_manufacturies"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_luxury_furniture" }
+				activate_production_methods={ "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_privately_owned_building_furniture_manufacturies" "pm_luxury_furniture" }
 			}
 		}
 	}
@@ -593,7 +593,7 @@
 				building="building_furniture_manufacturies"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_lathe" "pm_luxury_furniture" }
+				activate_production_methods={ "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_privately_owned_building_furniture_manufacturies" "pm_lathe" "pm_luxury_furniture" }
 			}
 		}
 	}
@@ -659,7 +659,7 @@
 				building="building_logging_camp"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_steam_donkey_building_logging_camp" "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_road_carts" "pm_hardwood" }
 			}
 			create_building={
 				building="building_barracks"
@@ -711,13 +711,13 @@
 				building="building_rye_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_tools" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_logging_camp"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
 			create_building={
 				building="building_port"
@@ -741,7 +741,7 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_slaughterhouses" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_military_shipyards"
@@ -775,7 +775,7 @@
 				building="building_motor_industry"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_privately_owned_industry" "pm_automation_disabled" }
+				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_automation_disabled" "pm_privately_owned_industry" }
 			}
 		}
 	}
@@ -791,7 +791,7 @@
 				building="building_rye_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_potatoes" "pm_tools" "pm_soil_enriching_farming" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
@@ -815,7 +815,7 @@
 				building="building_tooling_workshops"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_steel" "pm_privately_owned_building_tooling_workshops" "pm_automation_disabled" }
+				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 			create_building={
 				building="building_power_plant"
@@ -897,7 +897,7 @@
 				building="building_coal_mine"
 				level=40
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_steam_donkey_building_coal_mine" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_dynamite_building_coal_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_steam_donkey_building_coal_mine" "pm_privately_owned_building_coal_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_dynamite_building_coal_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -1045,7 +1045,7 @@
 				building="building_iron_mine"
 				level=36
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_no_explosives" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_steam_donkey_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_privately_owned_building_iron_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_steam_donkey_mine" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -1105,7 +1105,7 @@
 				building="building_lead_mine"
 				level=31
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_lead_mine" "pm_no_explosives" "pm_condensing_engine_pump_building_lead_mine" "pm_rail_transport_mine" "pm_steam_donkey_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_condensing_engine_pump_building_lead_mine" "pm_privately_owned_building_lead_mine" "pm_steam_donkey_mine" }
 			}
 			create_building={
 				building="building_oil_rig"
@@ -1817,7 +1817,7 @@
 				building="building_sulfur_mine"
 				level=24
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_condensing_engine_pump_building_sulfur_mine" "pm_privately_owned_building_sulfur_mine" "pm_steam_donkey_mine" }
+				activate_production_methods={ "pm_privately_owned_building_sulfur_mine" "pm_no_explosives" "pm_condensing_engine_pump_building_sulfur_mine" "pm_rail_transport_mine" "pm_steam_donkey_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -2671,7 +2671,7 @@
 				building="building_furniture_manufacturies"
 				level=16
 				reserves=1
-				activate_production_methods={ "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_precision_tools" }
+				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_precision_tools" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -2819,7 +2819,7 @@
 				building="building_food_industry"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_patent_stills" "pm_privately_owned_building_food_industry" "pm_baking_powder" "pm_manual_dough_processing" "pm_vacuum_canning" }
+				activate_production_methods={ "pm_privately_owned_building_food_industry" "pm_patent_stills" "pm_baking_powder" "pm_manual_dough_processing" "pm_vacuum_canning" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
@@ -2943,7 +2943,7 @@
 				building="building_iron_mine"
 				level=17
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_privately_owned_building_iron_mine" "pm_steam_donkey_mine" "pm_dynamite_building_iron_mine" }
+				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_rail_transport_mine" "pm_steam_donkey_mine" "pm_dynamite_building_iron_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3269,7 +3269,7 @@
 				building="building_lead_mine"
 				level=18
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_lead_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_rail_transport_mine" "pm_steam_donkey_mine" "pm_dynamite_building_lead_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_privately_owned_building_lead_mine" "pm_steam_donkey_mine" "pm_dynamite_building_lead_mine" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -3599,7 +3599,7 @@
 				building="building_iron_mine"
 				level=36
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_rail_transport_mine" "pm_steam_donkey_mine" "pm_dynamite_building_iron_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_privately_owned_building_iron_mine" "pm_steam_donkey_mine" "pm_dynamite_building_iron_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3629,7 +3629,7 @@
 				building="building_coal_mine"
 				level=44
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_rail_transport_mine" "pm_steam_donkey_building_coal_mine" "pm_dynamite_building_coal_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_privately_owned_building_coal_mine" "pm_steam_donkey_building_coal_mine" "pm_dynamite_building_coal_mine" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -5151,7 +5151,7 @@
 				building="building_coal_mine"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_dynamite_building_coal_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_no_steam_automation" "pm_privately_owned_building_coal_mine" "pm_dynamite_building_coal_mine" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -5337,13 +5337,13 @@
 				building="building_coal_mine"
 				level=31
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_steam_donkey_building_coal_mine" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_dynamite_building_coal_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_steam_donkey_building_coal_mine" "pm_privately_owned_building_coal_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_dynamite_building_coal_mine" }
 			}
 			create_building={
 				building="building_iron_mine"
 				level=43
 				reserves=1
-				activate_production_methods={ "pm_steam_donkey_mine" "pm_privately_owned_building_iron_mine" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_dynamite_building_iron_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_privately_owned_building_iron_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_steam_donkey_mine" "pm_dynamite_building_iron_mine" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -5385,7 +5385,7 @@
 				building="building_furniture_manufacturies"
 				level=11
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_precision_tools" }
+				activate_production_methods={ "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_precision_tools" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -5705,7 +5705,7 @@
 				building="building_coal_mine"
 				level=13
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_steam_donkey_building_coal_mine" "pm_dynamite_building_coal_mine" }
+				activate_production_methods={ "pm_steam_donkey_building_coal_mine" "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_dynamite_building_coal_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -5717,7 +5717,7 @@
 				building="building_food_industry"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_patent_stills" "pm_privately_owned_building_food_industry" "pm_baking_powder" "pm_manual_dough_processing" "pm_vacuum_canning" }
+				activate_production_methods={ "pm_privately_owned_building_food_industry" "pm_patent_stills" "pm_baking_powder" "pm_manual_dough_processing" "pm_vacuum_canning" }
 			}
 			create_building={
 				building="building_chemical_plants"
@@ -5841,7 +5841,7 @@
 				building="building_iron_mine"
 				level=29
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_privately_owned_building_iron_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_steam_donkey_mine" }
+				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_no_explosives" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_steam_donkey_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -6083,7 +6083,7 @@
 				building="building_lead_mine"
 				level=13
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_publicly_traded_building_lead_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_steam_donkey_mine" "pm_dynamite_building_lead_mine" }
+				activate_production_methods={ "pm_steam_donkey_mine" "pm_rail_transport_mine" "pm_publicly_traded_building_lead_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_dynamite_building_lead_mine" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -6243,7 +6243,7 @@
 				building="building_gold_mine"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_privately_owned_building_gold_mine" "pm_condensing_engine_pump_building_gold_mine" "pm_steam_donkey_mine" "pm_dynamite_building_gold_mine" }
+				activate_production_methods={ "pm_steam_donkey_mine" "pm_rail_transport_mine" "pm_privately_owned_building_gold_mine" "pm_condensing_engine_pump_building_gold_mine" "pm_dynamite_building_gold_mine" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -6473,7 +6473,7 @@
 				building="building_furniture_manufacturies"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_furniture_manufacturies" "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_precision_tools" }
+				activate_production_methods={ "pm_rotary_valve_engine_building_furniture_manufacturies" "pm_privately_owned_building_furniture_manufacturies" "pm_mechanized_workshops" "pm_precision_tools" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -6781,13 +6781,13 @@
 				building="building_iron_mine"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_iron_mine" "pm_no_explosives" "pm_condensing_engine_pump_building_iron_mine" "pm_rail_transport_mine" "pm_steam_donkey_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_condensing_engine_pump_building_iron_mine" "pm_privately_owned_building_iron_mine" "pm_steam_donkey_mine" }
 			}
 			create_building={
 				building="building_lead_mine"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_publicly_traded_building_lead_mine" "pm_no_explosives" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_steam_donkey_mine" }
+				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_publicly_traded_building_lead_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_steam_donkey_mine" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -6941,7 +6941,7 @@
 				building="building_coal_mine"
 				level=8
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_privately_owned_building_coal_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_steam_donkey_building_coal_mine" }
+				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_no_explosives" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_coal_mine" "pm_steam_donkey_building_coal_mine" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -7089,7 +7089,7 @@
 				building="building_sulfur_mine"
 				level=32
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_condensing_engine_pump_building_sulfur_mine" "pm_privately_owned_building_sulfur_mine" "pm_steam_donkey_mine" "pm_dynamite_building_sulfur_mine" }
+				activate_production_methods={ "pm_privately_owned_building_sulfur_mine" "pm_condensing_engine_pump_building_sulfur_mine" "pm_rail_transport_mine" "pm_steam_donkey_mine" "pm_dynamite_building_sulfur_mine" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -7409,7 +7409,7 @@
 				building="building_lead_mine"
 				level=25
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_no_explosives" "pm_privately_owned_building_lead_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_steam_donkey_mine" }
+				activate_production_methods={ "pm_privately_owned_building_lead_mine" "pm_no_explosives" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_steam_donkey_mine" }
 			}
 			create_building={
 				building="building_logging_camp"

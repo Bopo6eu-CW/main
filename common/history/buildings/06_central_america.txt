@@ -466,7 +466,7 @@
 				building="building_logging_camp"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_electric_saw_mills" "pm_increased_hardwood" "pm_rail_transport_building_logging_camp" }
+				activate_production_methods={ "pm_steam_donkey_building_logging_camp" "pm_privately_owned_building_logging_camp" "pm_electric_saw_mills" "pm_increased_hardwood" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_arts_academy"
@@ -612,7 +612,7 @@
 				building="building_coal_mine"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_privately_owned_building_coal_mine" "pm_no_steam_automation" "pm_condensing_engine_pump_building_coal_mine" "pm_dynamite_building_coal_mine" }
+				activate_production_methods={ "pm_privately_owned_building_coal_mine" "pm_rail_transport_mine" "pm_no_steam_automation" "pm_condensing_engine_pump_building_coal_mine" "pm_dynamite_building_coal_mine" }
 			}
 			create_building={
 				building="building_livestock_ranch"

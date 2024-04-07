@@ -1,4 +1,4 @@
-﻿TRADE_ROUTES = {
+TRADE_ROUTES = {
 	# Britain
 	c:GBR ?= {
 		create_trade_route = {
@@ -1222,6 +1222,54 @@
 			level = 12
 			direction = export
 			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = oil
+			level = 12
+			direction = export
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = wood
+			level = 10
+			direction = export
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = wood
+			level = 11
+			direction = export
+			target = c:GER.market
+		}
+		create_trade_route = {
+			goods = wood
+			level = 10
+			direction = export
+			target = c:CHI.market
+		}
+		create_trade_route = {
+			goods = hardwood
+			level = 23
+			direction = export
+			target = c:GER.market
+		}
+		create_trade_route = {
+			goods = hardwood
+			level = 14
+			direction = export
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 27
+			direction = import
+			target = c:CHI.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 25
+			direction = import
+			target = c:GBR.market
 		}
 	}
 

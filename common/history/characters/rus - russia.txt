@@ -19,5 +19,9 @@
 		create_character = {
 			template = RUS_stolypin
 		}
+
+		create_character = {
+			template = RUS_kerensky
+		}
 	}
 }
