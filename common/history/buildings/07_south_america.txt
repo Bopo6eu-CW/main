@@ -386,7 +386,7 @@
 				building="building_food_industry"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_baking_powder" "pm_disabled_distillery" "pm_privately_owned_building_food_industry" "pm_manual_dough_processing" "pm_disabled_canning" }
+				activate_production_methods={ "pm_baking_powder" "pm_vacuum_canning" "pm_privately_owned_building_food_industry" "pm_manual_dough_processing" "pm_disabled_distillery" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
@@ -2584,7 +2584,7 @@
 				building="building_logging_camp"
 				level=6
 				reserves=1
-				activate_production_methods={ "pm_privately_owned_building_logging_camp" "pm_saw_mills" "pm_no_equipment" "pm_rail_transport_building_logging_camp" "pm_increased_hardwood" }
+				activate_production_methods={ "pm_rail_transport_building_logging_camp" "pm_saw_mills" "pm_no_equipment" "pm_privately_owned_building_logging_camp" "pm_increased_hardwood" }
 			}
 			create_building={
 				building="building_fishing_wharf"

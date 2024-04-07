@@ -131,3 +131,19 @@ RUS_stolypin = {
 	traits = {
 	}
 }
+
+RUS_kerensky = {
+	first_name = Alexander
+	last_name = Kerensky
+	historical = yes
+	ig_leader = yes
+	culture = cu:russian
+	female = no
+	religion = orthodox
+	ideology = ideology_republican_leader
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1881.4.22
+	traits = {
+		persistent
+	}
+}
