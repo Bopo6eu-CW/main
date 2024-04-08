@@ -1,26 +1,27 @@
 add_to_multi_alliance = {
 	IF = {
 		limit = {
-			check_variable = {
-				which = $ALLIANCE$
-				value = 1
-			}
+			$ALLIANCE$ = 1
 		}
 		add_to_global_variable_list = {
 			name = central_powers
 			target = $COUNTRY$
 		}
+		$COUNTRY$ = {
+			set_variable = central_powers
+		}
+
 	}
-	ELSEIF = {
+	else_if = {
 		limit = {
-			check_variable = {
-				which = $ALLIANCE$
-				value = 2
-			}
+			$ALLIANCE$ = 2
 		}
 		add_to_global_variable_list = {
 			name = entente
 			target = $COUNTRY$
+		}
+		$COUNTRY$ = {
+			set_variable = entente
 		}
 	}
 }

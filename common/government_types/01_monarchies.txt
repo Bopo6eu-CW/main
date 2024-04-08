@@ -1,11 +1,11 @@
 ﻿gov_federal_parliamentary_constitutional_monarchy = {
 	transfer_of_power = hereditary
 
-	male_ruler = "RULER_TITLE_KING"
-	female_ruler = "RULER_TITLE_QUEEN"
+	male_ruler = "RULER_TITLE_EMPEROR"
+	female_ruler = "RULER_TITLE_EMPRESS"
 
-	male_heir = "" # Empty on purpose
-	female_heir = "" # Empty on purpose
+	male_heir = "RULER_TITLE_ARCHDUKE" # Empty on purpose
+	female_heir = "RULER_TITLE_ARCHDUCHESS" # Empty on purpose
 
 	possible = {
 		AND = {

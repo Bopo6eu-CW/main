@@ -2,10 +2,7 @@
 	OR = {
 		# Central Powers
 		AND = {
-			check_variable = {
-				which = $ALLIANCE$
-				value = 1
-			}
+			$ALLIANCE$ = 1
 			AND = {
 				$MAIN_COUNTRY$ = {
 					is_target_in_global_variable_list = {
@@ -23,10 +20,7 @@
 		}
 		# Entente
 		AND = {
-			check_variable = {
-				which = $ALLIANCE$
-				value = 2
-			}
+			$ALLIANCE$ = 2
 			AND = {
 				$MAIN_COUNTRY$ = {
 					is_target_in_global_variable_list = {
@@ -76,6 +70,31 @@ both_are_in_any_multi_alliance = {
 					target = $SECONDARY_COUNTRY$
 				}
 			}
+		}
+	}
+}
+
+
+is_in_entente = {
+	$COUNTRY$ = {
+		OR = {
+			is_target_in_global_variable_list = {
+				name = entente
+				target = $COUNTRY$
+			}
+			has_variable = entente
+		}
+	}
+}
+
+is_in_central_powers = {
+	$COUNTRY$ = {
+		OR = {
+			is_target_in_global_variable_list = {
+				name = central_powers
+				target = $COUNTRY$
+			}
+			has_variable = central_powers
 		}
 	}
 }

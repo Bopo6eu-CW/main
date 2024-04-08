@@ -147,3 +147,18 @@ RUS_kerensky = {
 		persistent
 	}
 }
+
+AUS_franz_ferdinand = {
+	first_name = franz_ferdinand
+	last_name = von_Habsburg
+	historical = yes
+	ig_leader = no
+	culture = cu:north_german
+	female = no
+	heir = yes
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1863.12.18
+	traits = {
+		persistent
+	}
+}
