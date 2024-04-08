@@ -72,7 +72,7 @@ rus_lenin_character_template = {
 	culture = cu:russian
 	religion = rel:atheist
 	interest_group = ig_trade_unions
-	ideology = ideology_vanguardist
+	ideology = ideology_leninist
 	dna = dna_lenin
 	traits = {
         	firebrand
@@ -112,5 +112,42 @@ RUS_stolypin = {
 	interest_group = ig_landowners
 	birth_date = 1862.4.14
 	traits = {
+	}
+}
+
+
+RUS_kerensky = {
+	first_name = Alexander
+	last_name = Kerensky
+	historical = yes
+	ig_leader = yes
+	culture = cu:russian
+	female = no
+	religion = orthodox
+	ideology = ideology_republican_leader
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1881.4.22
+	traits = {
+		persistent
+	}
+}
+
+
+rus_leon_trotsky_character_template = {
+    first_name = Leon_2
+	last_name = Trotsky
+	historical = yes
+	culture = cu:ashkenazi
+	religion = rel:atheist
+	female = no
+    is_agitator = yes
+	interest_group = ig_armed_forces
+	ideology = ideology_vanguardist
+	birth_date = 1879.10.26
+	dna = dna_trotsky
+	traits = {
+		innovative
+        charismatic
+        persistent
 	}
 }
