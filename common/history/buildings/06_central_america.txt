@@ -578,6 +578,7 @@
 	}
 	s:STATE_PANAMA={
 		region_state:PNM={
+		region_state:CLM={
 			create_building={
 				building="building_coffee_plantation"
 				level=3

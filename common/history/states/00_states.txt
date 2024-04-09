@@ -791,6 +791,8 @@
 		create_state = {
 			country = c:USA
 			owned_provinces = { xD0EF40 }
+			country = c:CLM
+			owned_provinces = { xBB820B x8A8A20 x47C5F8 x50C29C x8537FE x357099 x717275 x910E14 x30B080 xB0A911 xC650E1 xB0B080 xEE835F xD0EF40}
 		}
 
 		add_homeland = cu:central_american
@@ -1810,7 +1812,7 @@
 	}
 	s:STATE_ACRE = {
 		create_state = {
-			country = c:BRZ
+			country = c:BOL
 			owned_provinces = { 
 				x0BEC9D x5C413B x174A88 xA296AF x20BB6B xFF2E3D x449875 x06E343 xF605CB x562DA4 x46F090 x93D464 xD45C4D x5434FE x9A5667 xB7152C x2C1E28 x5720BB x41C0D0 xF23C51 xDDB34E xC4B4CD xFA73DA xF77646 xAB73D1 xFD1ADF x7949EB x897E6F xFDB1E8 
 			}
