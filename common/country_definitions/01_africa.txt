@@ -1033,7 +1033,7 @@ AIR = {
 
 MSN = {
 	color = { 230 231 62 }
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -1127,7 +1127,7 @@ MOS = {
 
 KRT = {
 	color = { 127 28 45 }
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -1137,7 +1137,7 @@ KRT = {
 
 SGU = {
 	color = { 27 28 145 }
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -1283,8 +1283,7 @@ EWE = {
 
 IBO = {
 	color = { 119 24 85 }
-	country_type = colonial
-
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -1316,8 +1315,7 @@ TBI = {
 
 AHG = {
 	color = { 138 168 70 }
-	country_type = colonial
-
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -1338,8 +1336,7 @@ TUA = {
 
 OUA = {
 	color = { 113 95 122 }
-	country_type = colonial
-
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -1349,8 +1346,7 @@ OUA = {
 
 ADG = {
 	color = { 215 132 165 }
-	country_type = colonial
-
+	country_type = decentralized
 	
 	tier = principality
 	
