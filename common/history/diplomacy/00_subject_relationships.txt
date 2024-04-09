@@ -1,4 +1,10 @@
 DIPLOMACY = {
+	c:JAP = {
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = puppet
+		}
+	}
 	c:SPA = {
 		create_diplomatic_pact = {
 			country = c:GAB
@@ -120,6 +126,10 @@ DIPLOMACY = {
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:MOR
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:TUN
 			type = puppet
 		}
@@ -179,6 +189,10 @@ DIPLOMACY = {
         # puppet :
 		create_diplomatic_pact = {
 			country = c:ITC
+			type = puppet
+		}		
+		create_diplomatic_pact = {
+			country = c:TRI
 			type = puppet
 		}
 		create_diplomatic_pact = {
@@ -463,10 +477,6 @@ DIPLOMACY = {
 		create_diplomatic_pact = {
 			country = c:NEJ
 			type = protectorate
-		}		
-		create_diplomatic_pact = {
-			country = c:TRI
-			type = puppet
 		}
 	}
 }
