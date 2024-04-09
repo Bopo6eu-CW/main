@@ -577,7 +577,7 @@
 		}
 	}
 	s:STATE_PANAMA={
-		region_state:PNM={
+		region_state:CLM={
 			create_building={
 				building="building_coffee_plantation"
 				level=3
@@ -633,13 +633,6 @@
 				activate_production_methods={ "pm_privately_owned_industry" "pm_vacuum_evaporation" }
 			}
 			create_building={
-				building="building_power_plant"
-				level=1
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_hydroelectric_plant" "pm_privately_owned_building_railway" }
-			}
-			create_building={
 				building="building_logging_camp"
 				level=1
 				reserves=1
@@ -657,45 +650,12 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_whaling" "pm_unrefrigerated" "pm_merchant_guilds_building_whaling_station" }
 			}
-		}
-		region_state:USA={
-			create_building={
-				building="building_port"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-			create_building={
-				building="building_panama_canal"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_canal" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "automatic_irrigation_building_coffee_plantation" "pm_privately_owned_plantation" "pm_road_carts" }
-			}
-			create_building={
-				building="building_coal_mine"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_condensing_engine_pump_building_coal_mine" "pm_dynamite_building_coal_mine" "pm_no_steam_automation" "pm_privately_owned_building_coal_mine" "pm_road_carts" }
-			}
-			create_building={
-				building="building_logging_camp"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_increased_hardwood" "pm_privately_owned_building_logging_camp" "pm_steam_donkey_building_logging_camp" "pm_road_carts" "pm_saw_mills" }
-			}
 			create_building={
 				building="building_rubber_plantation"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_publicly_traded" "pm_road_carts" "automatic_irrigation_building_rubber_plantation" }
 			}
-		}
 	}
 	s:STATE_HAITI={
 		region_state:HAI={
