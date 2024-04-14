@@ -53,6 +53,24 @@ social_democrat_party = {
 				trigger = {
 					exists = c:RUS
 					THIS = c:RUS
+					has_law = law_type:law_council_republic
+				}
+			}
+			triggered_desc = {
+				desc = party_socialist_revolutionary_party
+				trigger = {
+					exists = c:RUS
+					THIS = c:RUS
+					any_active_party{
+						is_party_type = communist_party
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_russian_socialist_democratic_workers_party
+				trigger = {
+					exists = c:RUS
+					THIS = c:RUS
 				}
 			}
 			triggered_desc = {
@@ -299,6 +317,7 @@ social_democrat_party = {
 								has_ideology = ideology:ideology_communist
 								has_ideology = ideology:ideology_vanguardist
 								has_ideology = ideology:ideology_anarchist
+								has_ideology = ideology:ideology_leninist
 							}
 						}
 					}
@@ -317,6 +336,7 @@ social_democrat_party = {
 						has_ideology = ideology:ideology_communist
 						has_ideology = ideology:ideology_vanguardist
 						has_ideology = ideology:ideology_anarchist
+						has_ideology = ideology:ideology_leninist
 					}
 				}
 				owner = {
@@ -396,6 +416,7 @@ social_democrat_party = {
 						has_ideology = ideology:ideology_communist
 						has_ideology = ideology:ideology_vanguardist
 						has_ideology = ideology:ideology_anarchist
+						has_ideology = ideology:ideology_leninist
 					}
 				}
 			}

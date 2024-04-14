@@ -5,11 +5,12 @@
 			triggered_desc = {
 				desc = party_bolsheviks
 				trigger = {
-					country_has_primary_culture = cu:russian
+					exists = c:RUS
+					THIS = c:RUS
 					any_interest_group = {
 						is_powerful = yes
 						leader = {
-							has_ideology = ideology:ideology_vanguardist
+							has_ideology = ideology:ideology_leninist
 						}
 					}
 				}
@@ -352,6 +353,7 @@
 						has_ideology = ideology:ideology_communist
 						has_ideology = ideology:ideology_vanguardist
 						has_ideology = ideology:ideology_anarchist
+						has_ideology = ideology:ideology_leninist
 					}
 				}
 			}
@@ -368,6 +370,7 @@
 						has_ideology = ideology:ideology_communist
 						has_ideology = ideology:ideology_vanguardist
 						has_ideology = ideology:ideology_anarchist
+						has_ideology = ideology:ideology_leninist
 					}
 				}
 			}
@@ -393,6 +396,7 @@
 								has_ideology = ideology:ideology_communist
 								has_ideology = ideology:ideology_vanguardist
 								has_ideology = ideology:ideology_anarchist
+								has_ideology = ideology:ideology_leninist
 							}
 						}
 					}
@@ -533,6 +537,7 @@
 					has_ideology = ideology:ideology_proletarian
 					leader = {
 						has_ideology = ideology:ideology_social_democrat
+						has_ideology = ideology:ideology_leninist
 					}
 					AND = {
 						has_ideology = ideology:ideology_loyalist
@@ -570,6 +575,7 @@
 						has_ideology = ideology:ideology_abolitionist
 						has_ideology = ideology:ideology_social_democrat
 						has_ideology = ideology:ideology_communist
+						has_ideology = ideology:ideology_leninist
 					}
 				}
 			}
