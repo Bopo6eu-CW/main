@@ -54,6 +54,9 @@ social_democrat_party = {
 					exists = c:RUS
 					THIS = c:RUS
 					has_law = law_type:law_council_republic
+					any_active_party{
+						is_party_type = communist_party
+					}
 				}
 			}
 			triggered_desc = {
