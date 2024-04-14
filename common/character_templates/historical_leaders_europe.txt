@@ -314,32 +314,11 @@ gbr_temple_character_template = { # Viscount Palmerston
         chance = 75
     }   
 }
-gbr_william_hanover_template = {
-    first_name = William
-    last_name = Hannover
-    historical = yes
-    ruler = yes
-    noble = yes
-    birth_date = 1765.8.21
-    dna = dna_king_william_04
-    culture = cu:british
-    interest_group = ig_petty_bourgeoisie
-    ideology = ideology_royalist
-    traits = {
-        romantic
-    }
-    on_created = {
-        set_variable = {
-            name = is_billy
-        }   
-        set_variable = is_married       
-    }
-}
 gbr_queen_victoria_template = {
     first_name = Victoria
     last_name = Hannover
     historical = yes
-    heir = yes
+    ruler = yes
     female = yes
     noble = yes
     birth_date = 1819.5.24
@@ -354,6 +333,21 @@ gbr_queen_victoria_template = {
         set_variable = {
             name = is_victoria
         }               
+    }
+}
+gbr_king_edward_vii = { # Edward VII heir NEEDS TO BE REMADE BY DEVELOPER MAKING UK
+    first_name = Edward
+    last_name = Hannover
+    historical = yes
+    heir = yes
+    female = no
+    noble = yes
+    birth_date = 1841.11.9
+    culture = cu:british
+    interest_group = ig_industrialists
+    ideology = ideology_moderate
+    traits = {
+      direct
     }
 }
 
@@ -473,43 +467,6 @@ pru_wilhelm_IV_hohenzollern_template = {
     }
 }
 
-rus_witte_character_template = {
-    first_name = Sergei
-    last_name = Witte
-    historical = yes
-    culture = cu:russian
-    female = no
-    religion = orthodox
-    ideology = ideology_reformer
-    interest_group = ig_industrialists
-    birth_date = 1849.6.29
-    traits = {
-        experienced_political_operator
-        meticulous
-        innovative
-    }   
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:RUS
-            this = c:RUS
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            is_interest_group_type = ig_industrialists    
-            NOR = {
-				has_variable = communist_ig_var
-				has_variable = chose_vanguardism
-				has_variable = chose_fascism
-				has_variable = chose_conservatism
-				has_variable = chose_ethno_nationalism
-			}
-        }   
-        earliest_usage_date = 1879.1.1
-        latest_usage_date = 1915.1.1
-        chance = 50
-    }   
-}
-
 # Sardinia-Piedmont - SAR
 sar_benso_character_template = { # The Count of Cavour
     first_name = Camillo
@@ -586,7 +543,7 @@ sar_victor_emmanuel_iii_template = {
     last_name = "di_Savoia"
     historical = yes
 	ruler = yes
-    birth_date = 1869.11.11 # pi day!
+    birth_date = 1869.11.11
     dna = dna_king_victor_emmanuel_02
     interest_group = ig_landowners
     ideology = ideology_market_liberal
@@ -724,67 +681,6 @@ bul_ferdinand_i_saxe_coburg_gotha_template = {
     dna = dna_king_leopold_01
     interest_group = ig_intelligentsia
     ideology = ideology_moderate
-    traits = {
-        tactful
-    }
-    on_created = {
-        set_variable = is_married
-    }
-}
-
-# 1910 french president
-
-fra_armand_fallieres_template = {
-    # Ferdinand I
-    first_name = "Armand"
-    last_name = "Fallieres"
-    historical = yes
-    birth_date = 1841.11.6
-    dna = dna_giovanni_gentille
-    interest_group = ig_intelligentsia
-    ideology = ideology_radical
-	ig_leader = yes
-    traits = {
-        tactful
-		statesman
-    }
-    on_created = {
-        set_variable = is_married
-    }
-}
-
-
-
-fra_raymond_poincare_template = {
-    # add dna to this guy at one point
-	# Republican Left (1910)
-    first_name = "Raymond"
-    last_name = "Poincare"
-    historical = yes
-    birth_date = 1860.8.20
-   # dna = dna_giovanni_gentille
-    interest_group = ig_industrialists
-    ideology = ideology_radical
-	ig_leader = yes
-    traits = {
-		ambitious
-    }
-    on_created = {
-        set_variable = is_married
-    }
-}
-
-
-fra_emile_loubet_template = {
-    # Ferdinand I
-    first_name = "E_mile"
-    last_name = "Loubet"
-    historical = yes
-    ruler = yes
-    birth_date = 1838.12.30
-    interest_group = ig_rural_folk
-    ideology = ideology_republican
-	ig_leader = yes
     traits = {
         tactful
     }

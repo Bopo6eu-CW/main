@@ -28,12 +28,12 @@ ideology_leninist = {
         law_industry_banned = strongly_disapprove
     }
 
-    lawgroup_trade_policy = {
-        law_protectionism = approve
-        law_mercantilism = disapprove
-        law_isolationism = approve
-        law_free_trade = strongly_disapprove
-    }
+    lawgroup_church_and_state = {
+		law_state_religion = strongly_disapprove
+		law_freedom_of_conscience = disapprove
+		law_total_separation = neutral
+		law_state_atheism = approve
+	}
 
     lawgroup_land_reform = {
         law_commercialized_agriculture = strongly_disapprove
