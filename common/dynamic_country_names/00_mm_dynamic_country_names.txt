@@ -37,6 +37,24 @@ TRI = {
 			}
 		}
 	}
+	dynamic_country_name = {
+		name = dyn_c_Ottoman_Tripolitania
+		adjective = TRI_ADJ
+
+		is_main_tag_only = yes
+		priority = 2
+		
+		trigger = {
+			exists = c:TUR
+			c:TUR = {
+				has_diplomatic_pact = {
+					who = c:TRI
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
 }
 DOM = { 
 	dynamic_country_name = {
