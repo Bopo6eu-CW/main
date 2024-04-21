@@ -1517,7 +1517,7 @@
  		}
  	}
  	s:STATE_ULIASTAI = { 
- 		region_state:MGL = { 
+ 		region_state:CHI = { 
  			create_pop = { 
  				culture = mongol
  				size = 540608
@@ -1533,7 +1533,7 @@
  		}
  	}
  	s:STATE_URGA = { 
- 		region_state:MGL = { 
+ 		region_state:CHI = { 
  			create_pop = { 
  				culture = mongol
  				size = 751104

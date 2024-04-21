@@ -3497,7 +3497,7 @@
 		}
 	}
 	s:STATE_ULIASTAI={
-		region_state:MGL={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				level=6
@@ -3555,7 +3555,7 @@
 		}
 	}
 	s:STATE_URGA={
-		region_state:MGL={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				level=13
