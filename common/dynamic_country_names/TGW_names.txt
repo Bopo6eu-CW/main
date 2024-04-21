@@ -560,24 +560,7 @@ RUS = {
 		}
 	}
 }
-CHI = {
-	dynamic_country_name = {
-		name = dyn_c_Republic_of_China
-		adjective = CHI_ADJ
 
-
-		is_main_tag_only = yes
-		priority = 2
-		
-		trigger = {
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_parliamentary_republic
-				}
-			}
-		}
-	}
-}
 PER = { 
 	dynamic_country_name = {
 		name = dyn_c_persia
@@ -683,6 +666,33 @@ DAI = {
 		}
 	}
 }
+
+
+CHI = { # China
+	dynamic_country_name = {
+		name = dyn_c_great_qing
+		adjective = dyn_c_great_qing_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_peoples_republic_of_china
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
 SAF = { # South Africa
 	dynamic_country_name = {
 		name = dyn_c_Union_of_South_Africa
@@ -809,25 +819,7 @@ BIC = {
 			c:GBR = {
 				has_diplomatic_pact = {
 					who = c:BIC
-					type = viceroyalty
-					is_initiator = yes
-				}
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_british_raj
-		adjective = BIC_ADJ
-
-		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:BIC
-					type = puppet
+					type = dominion
 					is_initiator = yes
 				}
 			}
