@@ -12,11 +12,11 @@ ideology_leninist = {
     }
 
     lawgroup_army_model = {
-		law_national_militia = approve
-		law_professional_army = strongly_disapprove
-		law_peasant_levies = strongly_disapprove
-		law_mass_conscription = disapprove
-	}
+        law_national_militia = approve
+        law_professional_army = strongly_disapprove
+        law_peasant_levies = strongly_disapprove
+        law_mass_conscription = disapprove
+    }
 
     lawgroup_economic_system = {
         law_command_economy = strongly_approve
@@ -29,11 +29,11 @@ ideology_leninist = {
     }
 
     lawgroup_church_and_state = {
-		law_state_religion = strongly_disapprove
-		law_freedom_of_conscience = disapprove
-		law_total_separation = neutral
-		law_state_atheism = approve
-	}
+        law_state_religion = strongly_disapprove
+        law_freedom_of_conscience = disapprove
+        law_total_separation = neutral
+        law_state_atheism = approve
+    }
 
     lawgroup_land_reform = {
         law_commercialized_agriculture = strongly_disapprove
@@ -48,6 +48,34 @@ ideology_leninist = {
         owner = {
             has_technology_researched = socialism
         }
+    }
+
+    leader_weight = {
+        value = 0
+    }
+}
+
+ideology_jingoist_leader = { # soft-removed by no attraction, superseded by ultranationalism (ethnonationalism)
+    icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_jingoist.dds"
+
+    character_ideology = yes
+
+    lawgroup_army_model = {
+        law_mass_conscription = strongly_approve
+        law_professional_army = approve
+        law_national_militia = neutral
+        law_peasant_levies = disapprove
+    }
+
+    lawgroup_colonization = {
+        law_no_colonial_affairs = neutral
+        law_colonial_resettlement = approve
+        law_frontier_colonization = approve
+        law_colonial_exploitation = strongly_approve
+    }
+
+    possible = {
+        always = no
     }
 
     leader_weight = {
