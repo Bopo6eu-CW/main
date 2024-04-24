@@ -14,6 +14,9 @@
  world_war_1.1.d: "Our beloved [SCOPE.GetRootScope.GetCountry.GetHeir.GetPrimaryRoleTitle] [SCOPE.GetRootScope.GetCountry.GetHeir.GetFirstName], the heir presumptive to the Austro-Hungarian throne, was assassinated by a member of the Young Bosnia organization this morning as he rode through the streets of Sarajevo. It was an act of pure barbarism committed by Serbian nationalists seeking to undermine our Empire's control over Bosnia and Herzegovina."
  world_war_1.1.f: "I was present in Sarajevo when the dreadful event occurred. The Archduke and his wife Sophie were visiting the city as part of an official tour. Their motorcade was making its way through the streets when a group of young Serbian nationalists struck. Gavrilo Princip, a member of the organization Young Bosnia and part of the aforementioned group, fired the fatal shots that killed both the Archduke and his wife."
  world_war_1.1.1: "Outrageous! We must hold Serbia accountable."
-world_war_1.2.t: "bbb"
+ world_war_1.2.t: "bbb"
  world_war_1.2.d: "b"
- 
+ rus_lenin_1.1.t: "Lenin has returned to Russia!"
+ rus_lenin_1.1.d: "description"
+ rus_lenin_1.1.f: "flavor"
+ rus_lenin_1.1.1: "Victory will be ours!"

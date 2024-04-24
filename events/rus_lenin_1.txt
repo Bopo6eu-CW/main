@@ -1,0 +1,53 @@
+﻿namespace = rus_lenin_1
+
+rus_lenin_1.1 = {	
+	type = country_event
+	placement = root
+	hidden = no
+	
+	title = rus_lenin_1.1.t
+	desc = rus_lenin_1.1.d
+	flavor = rus_lenin_1.1.f
+	
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+    on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	duration = 3
+	
+	trigger = {
+		exists = c:RUS
+		any_country = {
+			country_has_primary_culture = cu:russian
+			is_revolutionary = yes
+		}
+	}
+	
+	any_country = {
+		country_has_primary_culture = cu:russian
+		is_revolutionary = yes
+		cd = {
+			save_scope_as = rus_revolt
+		}
+	}
+	
+	event_image = {
+        # There are two types of event images: video and texture
+        # video should be a bk2 (Bink Video) file
+        video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
+        # Static images are called 'texture' instead
+        # texture should be a dds (DirectDraw Surface) file
+        # texture = "gfx/texture.dds"
+    }
+	
+	option = {
+        name = rus_lenin_1.1.1
+        cd:rus_revolt = {
+			create_character = {
+				template = rus_lenin_character_template
+			}
+        }
+    }
+		
+}
