@@ -12,6 +12,7 @@
 						is_powerful = yes
 						leader = {
 							has_ideology = ideology:ideology_leninist
+							has_ideology = ideology_trotskist
 						}
 					}
 				}
@@ -25,6 +26,7 @@
 						is_powerful = yes
 						leader = {
 							has_ideology = ideology:ideology_leninist
+							has_ideology = ideology_trotskist
 						}
 					}
 				}
@@ -326,6 +328,7 @@
 					is_powerful = yes
 					leader = {
 						has_ideology = ideology:ideology_leninist
+						has_ideology = ideology_trotskist
 					}
 				}
 			}
@@ -376,6 +379,7 @@
 						has_ideology = ideology:ideology_vanguardist
 						has_ideology = ideology:ideology_anarchist
 						has_ideology = ideology:ideology_leninist
+						has_ideology = ideology_trotskist
 					}
 				}
 			}
@@ -393,6 +397,7 @@
 						has_ideology = ideology:ideology_vanguardist
 						has_ideology = ideology:ideology_anarchist
 						has_ideology = ideology:ideology_leninist
+						has_ideology = ideology_trotskist
 					}
 				}
 			}
@@ -419,6 +424,7 @@
 								has_ideology = ideology:ideology_vanguardist
 								has_ideology = ideology:ideology_anarchist
 								has_ideology = ideology:ideology_leninist
+								has_ideology = ideology_trotskist
 							}
 						}
 					}
@@ -560,6 +566,7 @@
 					leader = {
 						has_ideology = ideology:ideology_social_democrat
 						has_ideology = ideology:ideology_leninist
+						has_ideology = ideology_trotskist
 					}
 					AND = {
 						has_ideology = ideology:ideology_loyalist
@@ -598,6 +605,7 @@
 						has_ideology = ideology:ideology_social_democrat
 						has_ideology = ideology:ideology_communist
 						has_ideology = ideology:ideology_leninist
+						has_ideology = ideology_trotskist
 					}
 				}
 			}

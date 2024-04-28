@@ -21,21 +21,13 @@
 		}
 		
 		create_character = {
-			template = RUS_chernov
-		}
-		
-		create_character = {
-			template = RUS_martov
-		}
-		
-		create_character = {
 			template = RUS_milyukov
 		}
 		
 		# agitators
 		
 		create_character = {
-			template = rus_leon_trotsky_character_template
+			template = rus_lenin_character_template
 		}
 	}
 }

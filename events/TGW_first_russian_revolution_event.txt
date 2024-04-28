@@ -1,0 +1,50 @@
+﻿namespace = first_rus_rev
+
+first_rus_rev.1 = {
+    type = country_event
+    placement = root
+    hidden = no
+
+    title = first_rus_rev.1.t
+    desc = first_rus_rev.1.d
+    flavor = first_rus_rev.1.f
+    icon = "gfx/interface/icons/event_icons/event_protest.dds"
+
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+    on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+	
+	duration = 3
+
+    trigger = {
+		#triggered by je
+    }
+
+    event_image = {
+		video = "europenorthamerica_political_extremism"
+	}
+	
+	category = revolution
+
+    option = {
+        name = first_rus_rev.1.1
+        c:RUS = {
+			create_character = {
+				template = rus_leon_trotsky_character_template
+			}
+			create_character = {
+				template = RUS_chernov
+			}
+			create_character = {
+				template = RUS_guchkov
+			}
+			create_character = {
+				template = RUS_martov
+			}
+			add_radicals = {
+				value = medium_radicals
+				strata = poor
+			}
+        }
+    }
+}

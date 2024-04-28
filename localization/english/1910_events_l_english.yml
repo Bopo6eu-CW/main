@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  stance.1.t: "Weltpolitik"
  stance.1.d: "As the [SCOPE.sCountry('ger_nation_scope').GetAdjective] nation grows discontent of its' gridlock in the concert of Europe, there is debate among the elite over the direction of our foreign policy strategy. Three competing visions have emerged..."
  stance.1.f: ""
@@ -20,3 +20,7 @@
  rus_lenin_1.1.d: "description"
  rus_lenin_1.1.f: "flavor"
  rus_lenin_1.1.1: "Victory will be ours!"
+ first_rus_rev.1.t: "The Return of the Exiles"
+ first_rus_rev.1.d: "Many politicians and revolutionaries returned to Russia during recent revolutionary events"
+ first_rus_rev.1.f: "flavor"
+ first_rus_rev.1.1: "Oh God, save us from these traitors!"
